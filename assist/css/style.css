@@ -1,0 +1,435 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.btn {
+    color: white;
+    border-radius: 20px;
+}
+
+/*tophead section start*/
+.backgroundhead {
+    background-color: #fff;
+    padding-top: 12px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 4px 2px rgb(214, 211, 211);
+}
+
+.tophead {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+.backgroundhead a {
+    font-size: 13px;
+    color: hwb(120 3% 54%);
+}
+
+.backgroundhead a:hover {
+    opacity: 0.6;
+}
+
+.backgroundhead li .btn {
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width:990px) {
+    .backgroundhead {
+        display: none;
+    }
+}
+
+/*tophead section end*/
+/*Navbar Start*/
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    color: black;
+    background-color: #f5f1f1;
+    border-radius: 15px;
+    border-bottom: 3px solid green;
+}
+
+.navbar {
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+.nav-item .py-1 {
+
+    color: white;
+    border-radius: 20px;
+    background-color: hwb(120 3% 54%)
+}
+
+/*Navbar End*/
+/*Slider Start*/
+@media screen and (max-width:950px) {
+    .slider .carousel h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .slider .carousel .carousel-caption {
+        width: 100%;
+    }
+
+    .slider .carousel h1 {
+        font-size: 18px;
+    }
+
+    .slider .carousel h5 {
+        font-size: small;
+    }
+
+    #mycontainer11 {
+        background-color: #000;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .carousel h1 {
+        font-size: 15px;
+    }
+
+    /*  .carousel .carousel-caption img {
+      display: none;
+    } */
+    .carousel .carousel-caption {
+        width: 100%;
+    }
+}
+
+.carousel .carousel-caption {
+    top: 45%;
+    left: 10%;
+    text-align: left;
+
+}
+
+.slider .slider-img {
+
+    text-align: center;
+    margin-top: -10%;
+}
+
+.carousel .carousel-caption img {
+    width: 100%;
+    height: 100%;
+}
+
+.slider .animation {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: up-down;
+    animation-timeline: auto;
+
+
+}
+
+/*Slider End*/
+/* Marquee start */
+marquee {
+    color: black;
+    box-shadow: 0 0 2px 3px rgb(176, 173, 173);
+    letter-spacing: 1px;
+}
+
+/* Marquee End */
+/* About section start */
+.about img {
+    box-shadow: 0px 0px 2px 3px rgb(211, 210, 210);
+}
+
+.about p {
+    letter-spacing: 1px;
+
+}
+
+.about .box {
+    padding: 19px 3px;
+    background-color: #cff5e2;
+    border-bottom: 3px solid rgb(16, 97, 17);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+    letter-spacing: 1px;
+}
+
+.about .box:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-7px);
+}
+
+/* About section end */
+/* Why section start */
+.why {
+    background-color: rgb(248, 246, 243);
+}
+
+.why #p {
+    padding: 15px 12px;
+}
+
+.why .box {
+    padding: 25px 20px;
+    font-size: 15px;
+    background-color: #fff;
+    color: rgb(173, 169, 169);
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.why .box:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-5px);
+}
+
+/* Why section end */
+/* what is this section start */
+
+.whatisthis .box {
+    padding: 25px 15px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid rgb(22, 118, 22);
+    background-color: #cff5e2;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.whatisthis li {
+    padding: 3px 0px;
+}
+
+.whatisthis img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.whatisthis img:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-5px);
+}
+
+.whatisthis .box:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-5px);
+}
+
+/* what is this section end */
+/* What we offer section start */
+.whatweoffer {
+    background-color: rgb(248, 246, 243);
+}
+
+.whatweoffer p {
+    color: rgb(163, 158, 158);
+}
+
+.whatweoffer .box {
+    letter-spacing: 1px;
+    padding: 15px;
+    font-size: 14px;
+    border-bottom: 3px solid rgb(26, 90, 26);
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.whatweoffer #mybox {
+    padding: 10px;
+}
+
+.whatweoffer #mybox1 {
+    padding: 10px 7px;
+}
+
+.whatweoffer .box:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-5px);
+}
+
+/* What we offer section start */
+/* How it works section start*/
+
+.howitwork .box {
+    background-color: #cff5e2;
+    padding: 15px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid rgb(21, 87, 12);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.howitwork #box1 {
+    padding: 25px 15px;
+}
+
+.howitwork #box2 {
+    padding: 25px 15px;
+}
+
+.howitwork .box:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-7px);
+}
+
+/* How it works section end*/
+/* THEY TRUSTED US section start */
+.theytrustedus {
+    background-color: rgb(248, 246, 243);
+}
+
+.theytrustedus .box {
+
+    border: 1px solid rgb(188, 189, 189);
+    color: rgb(77, 74, 74);
+    letter-spacing: 1px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.theytrustedus .box:hover {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 3px solid green;
+    transform: translateY(-8px);
+}
+
+/* THEY TRUSTED US section end  */
+/* Contact section start */
+.contact #myrow {
+    padding: 65px 30px;
+    border-bottom: 3px solid rgb(20, 101, 20);
+
+    color: rgb(77, 74, 74);
+    letter-spacing: 1px;
+    background-color: #fff;
+    border-top: 3px solid rgb(20, 101, 20);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.contact .box {
+    padding: 30px;
+    border-bottom: 3px solid rgb(20, 101, 20);
+
+    color: rgb(77, 74, 74);
+    letter-spacing: 1px;
+    background-color: #fff;
+    border-top: 3px solid rgb(20, 101, 20);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.contact .box .location #icon {
+
+    padding: 10px;
+    color: green;
+    transition: all 0.7s ease-in;
+    box-shadow: 0 0 1px 1px rgb(176, 172, 172);
+}
+
+.contact .box .location:hover>#icon {
+    color: #ffffff;
+    background-color: #089408;
+}
+
+.contact #myrow input {
+    padding: 10px;
+    box-shadow: 0px 0px 1px 1px rgb(182, 179, 179);
+    border-radius: 20px;
+}
+
+.contact #myrow select,
+.contact #myrow textarea {
+    box-shadow: 0px 0px 1px 1px rgb(182, 179, 179);
+    border-radius: 20px;
+}
+
+.contact .box,
+.contact #myrow:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-5px);
+}
+
+/* Contact section end */
+/* Capital risk section start */
+.capital {
+    background-color: rgb(248, 246, 243);
+}
+
+.capital .box {
+
+    background-color: #cff5e2;
+    padding: 15px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid rgb(21, 87, 12);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px 2px rgb(224, 222, 222);
+}
+
+.capital .box:hover {
+    border-bottom: 3px solid green;
+    transform: translateY(-5px);
+}
+
+p {
+    color: rgb(161, 156, 156);
+}
+
+/* Capital risk section end */
+/*  footer Secion start */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer #myicon {
+    background-color: rgb(13, 124, 13);
+    transition: all 0.4s;
+}
+
+footer #myicon:hover {
+    background-color: rgb(139, 134, 134);
+}
+
+footer #mycol2 a {
+    font-size: 14px;
+
+
+}
+
+footer #mycol2 a:hover {
+
+    letter-spacing: 1px;
+
+}
+
+/*  footer Secion end */
